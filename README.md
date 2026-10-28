@@ -29,3 +29,8 @@ Framework: Vite. Build: `npm run build`. Diretório de saída: `dist`. Defina as
 ## Interações e acessibilidade
 
 Modal nativo com foco contido, Escape e retorno de foco; setas e gestos no visualizador; menu mobile; FAQ nativo; recusa de rastreamento sem impedir a compra; preferências reabertas no rodapé; movimento reduzido respeitado; CTA mobile oculto durante consentimento e modais. Preferência salva em localStorage. A revogação bloqueia eventos posteriores e envia `consent revoke` ao Pixel; cookies já existentes do provedor podem permanecer até expirar ou serem apagados pelo navegador.
+
+## Avaliações na primeira seção
+
+Os dois prints enviados pelo usuário estão em public/avaliacoes, convertidos em WebP sem alteração de conteúdo. As frases, caminhos e aviso de diferença em relação ao PDF ficam em src/config/reviews.ts. A primeira seção reúne preço, compra e avaliações. Cada card abre a conversa completa com navegação entre os dois prints. Não foram adicionados nomes, estrelas, notas ou selos de verificação.
+
