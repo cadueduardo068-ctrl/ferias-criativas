@@ -19,7 +19,7 @@ npm run build
 3. Edite `src/config/product.ts`: preço, contato, links completos de privacidade, termos, reembolso e licença. Os textos atuais identificam informações pendentes, não substituem os documentos comerciais finais.
 4. As seis categorias já foram conferidas com o PDF. Para atualizar o produto, substitua as imagens de `public/material` e os caminhos em `src/config/product.ts`. A capa está em `Illustrations.tsx`. As páginas 3, 4, 5, 6, 7 e 9 estão disponíveis no visualizador; o PDF também contém guia da família, caça-palavras e certificado.
 5. Para páginas reais, use WebP/AVIF comprimidos e defina dimensões adequadas. As prévias já estão em WebP. A página não solicita fontes externas.
-6. Substitua `public/social.svg` por uma imagem social PNG/WebP com URL absoluta e adicione URL canônica quando o domínio final estiver definido. SVG tem suporte limitado em redes sociais.
+6. A imagem social `public/social.png` e as URLs absolutas de Open Graph/canônica apontam para a publicação de revisão. Atualize-as se publicar em outro domínio.
 7. Revise a política de dados, a identidade do vendedor, licença, atendimento e reembolso antes de enviar tráfego pago. Não existem depoimentos ou números de compradores fictícios.
 
 ## Cloudflare Pages
