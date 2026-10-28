@@ -14,7 +14,7 @@ npm run build
 
 ## Configurar antes de vender
 
-1. Copie `.env.example` para `.env.local`. Defina `VITE_CHECKOUT_URL` com o endereço HTTPS real da Cakto. Todos os CTAs usam `CHECKOUT_URL`. Sem endereço válido, exibem um aviso, sem simular compra.
+1. Copie `.env.example` para `.env.local`. O checkout informado já está configurado: https://pay.cakto.com.br/eswajd5_1255051. Para substituí-lo, defina `VITE_CHECKOUT_URL` com outro endereço HTTPS da Cakto. Todos os CTAs usam `CHECKOUT_URL`. Sem endereço válido, exibem um aviso, sem simular compra.
 2. Opcional: defina `VITE_META_PIXEL_ID`. Só é carregado após consentimento. PageView e ViewContent são enviados ao inicializar; InitiateCheckout ocorre ao navegar para um checkout configurado. Purchase não é disparado. Nenhum token privado deve entrar nas variáveis VITE.
 3. Edite `src/config/product.ts`: preço, contato, links completos de privacidade, termos, reembolso e licença. Os textos atuais identificam informações pendentes, não substituem os documentos comerciais finais.
 4. As seis categorias já foram conferidas com o PDF. Para atualizar o produto, substitua as imagens de `public/material` e os caminhos em `src/config/product.ts`. A capa está em `Illustrations.tsx`. As páginas 3, 4, 5, 6, 7 e 9 estão disponíveis no visualizador; o PDF também contém guia da família, caça-palavras e certificado.

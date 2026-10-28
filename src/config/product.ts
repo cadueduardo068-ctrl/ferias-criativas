@@ -1,4 +1,4 @@
-export const CHECKOUT_URL = import.meta.env.VITE_CHECKOUT_URL?.trim() || '';
+export const CHECKOUT_URL = import.meta.env.VITE_CHECKOUT_URL?.trim() || 'https://pay.cakto.com.br/eswajd5_1255051';
 export const product = { name: 'Férias Criativas', brand: 'Mundo Criativo Kids', price: 19.9, currency: 'BRL', age: '4 a 8 anos', contact: '', privacy: '', terms: '', refund: '', license: '', cover: '/material/page-01.webp' };
 export const price = new Intl.NumberFormat('pt-BR', {style:'currency',currency:product.currency}).format(product.price);
 export const activities = [
